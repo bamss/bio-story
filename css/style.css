@@ -1,0 +1,35 @@
+html {
+   box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+h1{
+
+	font-family: 'Bungee Inline', cursive;
+
+}
+ header{
+
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	margin-right: 20%;
+ }
+
+.fermer-nav{
+
+	display: block;
+}
+
+.nav-top{
+	display: none;
+	background: black;
+	color: white;
+}
+
+.red {
+	color: red;
+}
