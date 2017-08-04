@@ -11,14 +11,22 @@ html {
 }
 
 body {
-  width: 330px;
+  width: 95%;
   max-width: calc(100% - 12px);
-  margin: 12px auto;
+  margin: 92px auto;
+  margin-bottom: 12px;
 }
 
 header {
   padding: 24px;
   position: relative;
+  background-color: #000;
+  margin-bottom: 18px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .nav-toggle {
@@ -28,7 +36,7 @@ header {
 
 .logo {
   display: inline-block;
-  color: #000;
+  color: #FFF;
   font-family: 'Bungee Inline', cursive;
   text-transform: uppercase;
   position: relative;
@@ -58,6 +66,10 @@ header {
   position: absolute;
   top:-3px;
   right:-5px;
+}
+
+header i {
+  color: #FFF;
 }
 
 a:hover {
@@ -95,9 +107,102 @@ i {
   color: grey;
 }
 
+.history{
+  background-image: url("https://media.giphy.com/media/g9582DNuQppxC/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin: auto;
+  font-size: 35px;
+  width: 350px;
+  height: 200px;
+  max-width: 100%;
+  position: relative;
+  margin-bottom: 18px;
+}
+.historyp{
+	position: absolute;
+	bottom: 0;
+}
+
+
+.sport{
+ background-image: url("http://media.melty.fr/article-789429-thumb/michael-jordan-vend-sa-villa-de-chicago-pour.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  margin: auto;
+  font-size: 35px;
+  width: 350px;
+  height: 200px;
+  max-width: 100%;
+  position: relative;
+  margin-bottom: 18px;
+}
+.sportp{
+	position: absolute;
+	bottom: 0;
+}
+.politique{
+ background-image: url("http://san.imatin.net/images/445515449360c80les-chefs-d-etat-du-burkina-faso-de9c98d9bb18ec12578ebff1e0d7674ab8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  margin: auto;
+  font-size: 35px;
+  width: 350px;
+  height: 200px;
+  position: relative;
+   margin-bottom: 18px;
+}
+.politiquep{
+	position: absolute;
+	bottom: 0;
+}
+.showbiz{
+ background-image: url("http://www.lepoint.fr/images/2017/02/12/7001789lpw-7002947-jpg_4090612.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  margin: auto;
+  font-size: 35px;
+  width: 350px;
+  height: 200px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.showbizp{
+	position: absolute;
+	bottom: 0;
+}
+.tech{
+ background-image: url("https://media.giphy.com/media/CTkWFZ1IDvsfS/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  margin: auto;
+  font-size: 35px;
+  width: 350px;
+  height: 500px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.techp{
+	position: absolute;
+	bottom: 0;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 24px;
+  margin: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #000;
+  position: relative;
+  color: #FFF;
+  right: 0;
+  left: 0;
+  bottom: 0
 }
