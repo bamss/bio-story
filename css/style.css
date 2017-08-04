@@ -13,7 +13,7 @@ h1{
 }
  header{
 
- 	display: flex;
+ 	/*display: fslex;*/
  	justify-content: space-between;
  	align-items: center;
  	margin-right: 20%;
@@ -24,7 +24,8 @@ h1{
 	display: block;
 }
 
-.nav-top{
+.nav-top {
+
 	display: none;
 	background: black;
 	color: white;
@@ -32,4 +33,84 @@ h1{
 
 .red {
 	color: red;
+}
+
+
+.history{
+ background-image: url("https://media.giphy.com/media/g9582DNuQppxC/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  margin: auto;
+  font-size: 35px;
+  width: 350px;
+  height: 200px;
+  position: relative;
+}
+.historyp{
+	position: absolute;
+	bottom: 0;
+}
+
+
+.sport{
+ background-image: url("http://media.melty.fr/article-789429-thumb/michael-jordan-vend-sa-villa-de-chicago-pour.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  margin: auto;
+  font-size: 35px;
+  width: 350px;
+  max-width: 100%;
+  height: 200px;
+  position: relative;
+}
+.sportp{
+	position: absolute;
+	bottom: 0;
+}
+.politique{
+ background-image: url("http://san.imatin.net/images/445515449360c80les-chefs-d-etat-du-burkina-faso-de9c98d9bb18ec12578ebff1e0d7674ab8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  margin: auto;
+  font-size: 35px;
+  width: 350px;
+  height: 200px;
+  position: relative;
+}
+.politiquep{
+	position: absolute;
+	bottom: 0;
+}
+.showbiz{
+ background-image: url("http://www.lepoint.fr/images/2017/02/12/7001789lpw-7002947-jpg_4090612.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  margin: auto;
+  font-size: 35px;
+  width: 350px;
+  height: 200px;
+  position: relative;
+}
+.showbizp{
+	position: absolute;
+	bottom: 0;
+}
+.tech{
+ background-image: url("https://media.giphy.com/media/CTkWFZ1IDvsfS/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  margin: auto;
+  font-size: 35px;
+  width: 350px;
+  height: 500px;
+  position: relative;
+}
+.techp{
+	position: absolute;
+	bottom: 0;
 }
